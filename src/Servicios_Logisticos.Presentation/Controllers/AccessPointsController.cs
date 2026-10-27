@@ -7,6 +7,7 @@ using Servicios_Logisticos.Application.Utilities.Mediator;
 namespace Servicios_Logisticos.Presentation.Controllers;
 
 [ApiController]
+[Route("api/access-points")]
 [Route("api/[controller]")]
 [Produces("application/json")]
 public class AccessPointsController : ControllerBase
