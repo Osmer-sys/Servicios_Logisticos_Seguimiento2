@@ -10,6 +10,9 @@ if errorlevel 1 (
     pause
     exit /b 1
 )
+
+if not defined ASPNETCORE_ENVIRONMENT set ASPNETCORE_ENVIRONMENT=Development
+
 echo [1/4] Restaurando paquetes...
 dotnet restore
 if errorlevel 1 goto error

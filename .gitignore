@@ -366,3 +366,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# Local settings and secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
